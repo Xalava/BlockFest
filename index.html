@@ -1,0 +1,260 @@
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="logo2.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>BlockFest</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--    Basic fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+
+    	<link href="assets/css/blockfest.css" rel="stylesheet" />
+
+
+	<!-- Fonts for random -->
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dosis" type="text/css"/>
+</head>
+
+<body class="index-page" >
+
+<!-- Navbar -->
+<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+	<div class="container">
+        <div class="navbar-header">
+	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+	        	<span class="sr-only">Toggle navigation</span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	    	</button>
+	    	<a href="#">
+	        	<div class="logo-container">
+	                <div class="logo">
+	                    <img src="BlockFest.png" alt="BlockFest Logo" rel="tooltip" title="<b>BlockFest</b> est un projet collectif de festival blockchain" data-placement="bottom" data-html="true">
+	                </div>
+	                <div class="brand">
+	                    BlockFest
+	                </div>
+
+
+				</div>
+	      	</a>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="navigation-index">
+	    	<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="#" id=countdown>J - {{countDown}}</a>
+				</li>
+
+	    	</ul>
+	    </div>
+	</div>
+</nav>
+<!-- End Navbar -->
+
+
+
+<div class="wrapper">
+	<div class="header header-filter" style="background-image: url('ambiance/amphi.jpg');">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="brand">
+						<h1>BlockFest</h1>
+						<h3>du 6 au 12 juin - École 42</h3>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="main main-raised">
+		<div class="section section-basic">
+	    	<div class="container">
+	            <div class="title">
+	                <h2></h2>
+	            </div>
+
+				<p>Une semaine pour comprendre le phénomène Blockchain en profondeur en écoutant, en pratiquant, en partageant et en prototypant. </p>
+
+				<p>Monté par une équipe pluri-disciplinaire passionnée par la transmission et le partage, le BlockFest a pour objectif d'être un espace-temps de construction collective, accueillante et fertile.</p>
+
+
+				<div class="title">
+					Au Programme	
+		        </div>
+
+				<table id=home-program>
+					<tr>
+						<th>
+							<div class=div-center>
+								<div class=header>
+									<div class="inline" style=margin-right:15px;>
+										<img src="picto/telescope.svg" class="svg svg-title">
+									</div>
+									<div class="inline">
+										<h3>En semaine</h3>
+									</div>
+								</div>
+							</div>
+						</th>
+						<th>
+							<div class=div-center>
+								<div class=header>
+									<div class="inline" style=margin-right:15px;>
+										<img src="picto/run.svg" class="svg svg-title">
+									</div>
+									<div class="inline">
+										<h3>Le weekend</h3>
+									</div>
+								</div>
+							</div>
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<div class=div-center>
+								<div class=header>
+									<div class=join-group>
+										<div>
+											<img src="picto/table_r.svg" class="svg svg-content">
+										</div>
+										<div class=centered>
+											<h4>Des tables<br />rondes</h4>
+										</div>
+									</div>
+									<div class=join-group>
+										<div>
+											<img src="picto/ateliers.svg" class="svg svg-content">
+										</div>
+										<div class=centered>
+											<h4>Des ateliers</h4>
+										</div>
+									</div>
+									<div class=join-group>
+										<div>
+											<img src="picto/test.svg" class="svg svg-content">
+										</div>
+										<div class=centered>
+											<h4>Utilisez des blockchains</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class=div-center>
+								<div class=header>
+									<div class=join-group>
+										<div>
+											<img src="picto/themes.svg" class="svg svg-content">
+										</div>
+										<div class=centered>
+											<h4>Proposez<br />un projet</h4>
+										</div>
+									</div>
+									<div class=join-group>
+										<div>
+											<img src="picto/proto.svg" class="svg svg-content">
+										</div>
+										<div class=centered>
+											<h4>Prototypez</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+
+				<div class=div-center id=speakers-title>
+					<div class=header>
+						<h2>Les intervenants</h2>
+					</div>
+				</div>
+				<div id=speakers class=row>
+					{{#each speakersList}}
+					{{> speaker}}
+					{{/each}}
+				</div>
+
+				<div id=application-description>
+					Les inscriptions seront ouvertes du 9 au 15 Mai 2016<br />
+					Nous ne serons pas en mesure de recevoir plus de ~120p pour les
+					conférences et ~40p par atelier. <br />
+					Pour garantir la mixité des participants, des informations sur votre
+					profil vous seront demandées à l'inscription.
+				</div>
+
+				<div class=div-center id=stay-tuned-container>
+					<div class=header>
+						<div class="input-group">
+							<input id=email type="text" class="form-control" placeholder="email">
+							<span class="input-group-btn">
+								<button id=stay-tuned class="btn btn-default" type="button">
+									stay tuned
+								</button>
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class=div-center id=thankyou>
+					<div class=header>
+						<h2>Merci !</h2>
+					</div>
+				</div>
+	    	</div>
+	    </div>
+	</div>
+	
+    <footer class="footer">
+	    <div class="container">
+	        <nav class="pull-left">
+	            <ul>
+					<li>
+						<a href="https://github.com/pciavald">
+							Pierre-Alexis Ciavaldini
+						</a>
+					</li>
+					<li>
+						<a href="http://youandjerrycan.org/">
+						   Justine Hannequin
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/lavayssiere">
+						   Xavier Lavayssière
+						</a>
+					</li>
+
+	            </ul>
+	        </nav>
+	        <div class="copyright pull-right">
+	           CC-BY-SA 2016, made with <i class="material-icons">favorite</i>
+	        </div>
+	    </div>
+	</footer>
+</div> <!-- wrapper -->
+
+
+
+
+
+
+    
+</body>
+
