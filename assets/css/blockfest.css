@@ -117,19 +117,20 @@
 
 .logo-container .logo{
     overflow: hidden;
-    border-radius: 50%;
-    border: 1px solid #333333;
+    border-radius: 10%;
+    border: 0px solid #333333;
     width: 50px;
     float: left;
 }
 
 .logo-container .brand{
-    font-size: 16px;
+    font-family: "Dosis";
+    font-size: 22px;
     color: #FFFFFF;
     line-height: 18px;
     float: left;
     margin-left: 10px;
-    margin-top: 7px;
+    margin-top: 12px;
     width: 70px;
     height: 40px;
     text-align: left;
@@ -357,14 +358,18 @@
 .section-examples h5{
     margin-top: 30px;
 }
-.components-page .wrapper > .header,
-.tutorial-page .wrapper > .header{
-    height: 400px;
-    padding-top: 100px;
-    background-size: cover;
-    background-position: center center;
+
+
+
+.speaker {
+    height: 33rem;
+        position: relative;
+
 }
-.components-page .title,
-.tutorial-page .title{
-    color: #FFFFFF;
+
+.speaker img{
+    margin:0 1rem 0 1rem;
+    position: relative;
+    /*margin-bottom: 0;*/
+    margin-top: 0;
 }
