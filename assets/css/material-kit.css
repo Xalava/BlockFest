@@ -3251,9 +3251,13 @@ h2.title {
   color: #FFFFFF;
   text-align: center;
 }
+
 .index-page .brand h1 {
-  font-size: 4.8em;
+  font-size: 6em;
   font-weight: 600;
+}
+.index-page .brand h1 span{
+  font-weight:900; 
 }
 .index-page .brand h3 {
   font-size: 1.5em;
@@ -3265,10 +3269,10 @@ h2.title {
   padding-top: 15px;
 }
 .index-page .header-filter:after {
-  background: rgba(101, 47, 142, 0.64);
-  background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
-  background: -moz-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
-  background: -webkit-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
+  background: rgba(33, 33, 33, 0.64);
+  background: linear-gradient(45deg, rgba(33, 33, 33, 0.88) 0%, rgba(33, 33, 33, 0.45) 100%);
+  background: -moz-linear-gradient(135deg, rgba(33, 33, 33, 0.88) 0%, rgba(33, 33, 33, 0.45) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(33, 33, 33, 0.88) 0%, rgba(33, 33, 33, 0.45) 100%);
 }
 
 
