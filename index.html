@@ -42,7 +42,7 @@
 	                    <img src="BlockFest.png" alt="BlockFest Logo" rel="tooltip" title="<b>BlockFest</b> est un projet collectif de festival blockchain" data-placement="bottom" data-html="true">
 	                </div>
 	                <div class="brand">
-	                    BlockFest
+	                    Block<b>Fest</b>
 	                </div>
 
 
@@ -52,6 +52,11 @@
 
 	    <div class="collapse navbar-collapse" id="navigation-index">
 	    	<ul class="nav navbar-nav navbar-right">
+	    		<li>
+	    			<a href="#preinscription">
+						<i class="material-icons">dashboard</i> Préinscription
+					</a>
+				</li>
 				<li>
 					<a href="#" >J - <span id="countdown"></span></a>
 				</li>
@@ -81,64 +86,45 @@
 
 
 	<div class="main main-raised">
-		<section class="section section-basic">
+		<section class="section entete">
 	    	<div class="container">
 	            <div class="title">
-	                <h2></h2>
+					<p>Une semaine pour comprendre le phénomène <span>Blockchain</span> en profondeur en écoutant, en pratiquant, en partageant et en <span>prototypant</span>. </p>
+
+					<p>Monté par une équipe <span>pluri-disciplinaire</span> passionnée par la transmission et le partage, le <span>BlockFest</span> a pour objectif d'être un espace-temps de construction collective, accueillante et fertile.</p>
 	            </div>
 
-				<p>Une semaine pour comprendre le phénomène Blockchain en profondeur en écoutant, en pratiquant, en partageant et en prototypant. </p>
-
-				<p>Monté par une équipe pluri-disciplinaire passionnée par la transmission et le partage, le BlockFest a pour objectif d'être un espace-temps de construction collective, accueillante et fertile.</p>
 			</div>
 		</section>
 
-		<section class="section programme">
-	    	<div class="container">
-	            <div class="title">
-	                <h2>Au Programme</h2>
-	            </div>
 
-				<table>
-					<tr>
-						<th>
-							<div class=div-center>
-								<div class=header>
-									<div class="inline" style=margin-right:15px;>
-										<img src="assets/img/picto/telescope.svg" class="svg svg-title">
-									</div>
-									<div class="inline">
-										<h3>En semaine</h3>
-									</div>
-								</div>
-							</div>
-						</th>
-						<th>
-							<div class=div-center>
-								<div class=header>
-									<div class="inline" style=margin-right:15px;>
-										<img src="assets/img/picto/run.svg" class="svg svg-title">
-									</div>
-									<div class="inline">
-										<h3>Le weekend</h3>
+
+	<section class="section section-tabs programme">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="card card-nav-tabs">
+							<div class="header header-success">
+
+								<div class="nav-tabs-navigation">
+									<div class="nav-tabs-wrapper">
+
+										<h2 class="text-center"><img src="assets/img/picto/telescope.svg" class="svg-title">En semaine</h2>
 									</div>
 								</div>
 							</div>
-						</th>
-					</tr>
-					<tr>
-						<td>
-							<div class=div-center>
-								<div class=header>
-									<div class=join-group>
+
+							<div class="content">
+								<div class="tab-content text-center row">
+									<div class="col-md-4 text-center">
 										<div>
 											<img src="assets/img/picto/table_r.svg" class="svg svg-content">
 										</div>
 										<div class=centered>
-											<h4>Des tables<br />rondes</h4>
+											<h4>Des tables rondes</h4>
 										</div>
 									</div>
-									<div class=join-group>
+									<div class="col-md-4 text-center">
 										<div>
 											<img src="assets/img/picto/ateliers.svg" class="svg svg-content">
 										</div>
@@ -146,7 +132,7 @@
 											<h4>Des ateliers</h4>
 										</div>
 									</div>
-									<div class=join-group>
+									<div class="col-md-4 text-center">
 										<div>
 											<img src="assets/img/picto/test.svg" class="svg svg-content">
 										</div>
@@ -156,33 +142,58 @@
 									</div>
 								</div>
 							</div>
-						</td>
-						<td>
-							<div class=div-center>
-								<div class=header>
-									<div class=join-group>
+						</div>
+						<!-- End Tabs with icons on Card -->
+
+					</div>
+
+					<div class="col-md-5">
+						<div class="card card-nav-tabs">
+							<div class="header header-danger">
+
+								<div class="nav-tabs-navigation">
+									<div class="nav-tabs-wrapper">
+										<h2 class="text-center"><img src="assets/img/picto/run.svg" class="svg-title">
+Le weekend</h2>
+									</div>
+								</div>
+							</div>
+
+							<div class="content">
+								<div class="tab-content  row">
+									<div class="col-md-6 text-center">
 										<div>
 											<img src="assets/img/picto/themes.svg" class="svg svg-content">
 										</div>
-										<div class=centered>
+										<div>
 											<h4>Proposez<br />un projet</h4>
 										</div>
 									</div>
-									<div class=join-group>
+									<div class="col-md-6 text-center">
 										<div>
 											<img src="assets/img/picto/proto.svg" class="svg svg-content">
 										</div>
-										<div class=centered>
+										<div>
 											<h4>Prototypez</h4>
 										</div>
 									</div>
 								</div>
 							</div>
-						</td>
-					</tr>
-				</table>
+						</div>
+						<!-- End Tabs with icons on Card -->
+
+					</div>
+
+
+			
+
+				</div>
 			</div>
 		</section>
+		<!-- End Section Tabs -->
+
+	
+
 
     	<section class="section" id="carousel">
 			<div class="container">
@@ -240,74 +251,108 @@
 			</div>
 		</section>
 
+		<section class="section div-center" id=speakers-title>
+			<div class="header title">
+
+				<h2> Les intervenants</h2>
+			</div>
+			<div id=speakers class=row>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/milad.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Milad Doueihi</h5><h6 class="titre">Historien des religions</h6><p class="etablissement">Université de Paris-Sorbonne</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/herve.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Hervé Moal</h5><h6 class="titre">Directeur du Développement et de l'innovation</h6><p class="etablissement">ARP-Astrance</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/laurenceallard.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Laurence Allard</h5><h6 class="titre">Chercheuse en Antropologie des datas</h6><p class="etablissement">Université Paris 3-IRCAV</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/lucascomparini.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Lucas Comparini</h5><h6 class="titre">Blockchain Expert</h6><p class="etablissement">IBM</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/sergeravet.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Serge Ravet</h5><h6 class="titre">Directeur de l'Innovation</h6><p class="etablissement">ADPIOS</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/xavierlava.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Xavier Lavayssière</h5><h6 class="titre">Cofondateur</h6><p class="etablissement">Les Bricodeurs</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/nicolasloubet.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Nicolas Loubet</h5><h6 class="titre">Cofondateur</h6><p class="etablissement">Cellabz & DAISEE</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/sajida.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Sajida Zouahri</h5><h6 class="titre">Ingénieure R&D</h6><p class="etablissement">Orange Labs</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/justineha.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Justine Hannequin</h5><h6 class="titre">Designer UX/UI</h6><p class="etablissement">CRI</p></div>
+				
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/pierrealexis.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Pierre Alexis Ciavaldini</h5><h6 class="titre">Étudiant 42, Coordinateur</h6><p class="etablissement">Makernet</p></div>
+		
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/khalil.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Khalil Jouini</h5><h6 class="titre">Doctorant en sociologie</h6><p class="etablissement"></p></div>
+		
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/clementbergelef.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Clément Bergé-Lefranc</h5><h6 class="titre">cofondateur</h6><p class="etablissement">Ledgys</p></div>
+		
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/adriansauzade.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Adrian Sauzade</h5><h6 class="titre">cofondateur</h6><p class="etablissement">Czam</p></div>
+	
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/thomassaintaubin.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Thomas Saint-Aubin</h5><h6 class="titre">cofondateur</h6><p class="etablissement">Open-Law</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/sergeravet.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Alexandre Statchenko</h5><h6 class="titre">cofondateur</h6><p class="etablissement">Blockchain France</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/sebastiencout.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Sébastien Couture</h5><h6 class="titre">Co-fondateur</h6><p class="etablissement">Stratumm</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/jeromegiusti.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Jérôme Giusti</h5><h6 class="titre">Avocat fondateur</h6><p class="etablissement">11-100-34</p></div>
+
+				<div class="speaker col-xs-6 col-md-3"><img src="assets/img/intervenants/laurachampion.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Laura Champion</h5><h6 class="titre">Responsable de la communication</h6><p class="etablissement">EEIE"</p></div>
+			</div>
+		</section>
 
 
 
 
+		<section class="section section-full-screen section-signup" style="background-image: url('assets/img/ambiance/saisir.jpg'); background-size: cover; background-position: top center; min-height: 400px;" id="preinscription">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<div class="card card-signup">
+							<form action="http://formspree.io/camille@formatup.com" method="POST">
+							<input type="hidden" name="_subject" value="Preinscription" />
+
+								<div class="header header-primary text-center">
+									<h4>Préinscription</h4>
+									<p>Les inscriptions seront ouvertes du 9 au 15 Mai 2016</p>
+									<p>Les places étant limitées, des informations sur votre profil pourront vous être demandé afin de garantir la mixité des participants</p>
+								</div>
+								<div class="content">
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">face</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Nom" name="name">
+									</div>
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">email</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Email" name="_replyto">
+									</div>
 
 
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">chat</i>
+										</span>
+										<input type="password" placeholder="Commentaire" class="form-control" name="comment"/>
+									</div>
+
+									<input type="hidden" name="_next" value="./index.html" />
 
 
+								</div>
+								<div class="footer text-center">
+										<input type="submit" value="Send" class="btn btn-primary btn-wd btn-lg">
 
+								</div>
+							</form>
+						</div>
 
-
-				<div class=div-center id=speakers-title>
-					<div class=header>
-						<h2>Les intervenants</h2>
 					</div>
 				</div>
-				<div id=speakers class=row>
+			</div>
+		</section>
+	</div> <!-- main -->
 
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/milad.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Milad Doueihi</h5><h6 class="titre">Historien des religions</h6><p class="etablissement">Université de Paris-Sorbonne</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/herve.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Hervé Moal</h5><h6 class="titre">Directeur du Développement et de l'innovation</h6><p class="etablissement">ARP-Astrance</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/laurenceallard.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Laurence Allard</h5><h6 class="titre">Chercheuse en Antropologie des datas</h6><p class="etablissement">Université Paris 3-IRCAV</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/lucascomparini.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Lucas Comparini</h5><h6 class="titre">Blockchain Expert</h6><p class="etablissement">IBM</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/sergeravet.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Serge Ravet</h5><h6 class="titre">Directeur de l'Innovation</h6><p class="etablissement">ADPIOS</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/xavierlava.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Xavier Lavayssière</h5><h6 class="titre">Cofondateur</h6><p class="etablissement">Les Bricodeurs</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/nicolasloubet.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Nicolas Loubet</h5><h6 class="titre">Cofondateur</h6><p class="etablissement">Cellabz & DAISEE</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/sajida.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Sajida Zouahri</h5><h6 class="titre">Ingénieure R&D</h6><p class="etablissement">Orange Labs</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/justineha.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Justine Hannequin</h5><h6 class="titre">Designer UX/UI</h6><p class="etablissement">CRI</p></div>
-					
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/pierrealexis.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Pierre Alexis Ciavaldini</h5><h6 class="titre">Étudiant 42, Coordinateur</h6><p class="etablissement">Makernet</p></div>
-			
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/khalil.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Khalil Jouini</h5><h6 class="titre">Doctorant en sociologie</h6><p class="etablissement"></p></div>
-			
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/clementbergelef.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Clément Bergé-Lefranc</h5><h6 class="titre">cofondateur</h6><p class="etablissement">Ledgys</p></div>
-			
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/adriansauzade.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Adrian Sauzade</h5><h6 class="titre">cofondateur</h6><p class="etablissement">Czam</p></div>
-		
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/thomassaintaubin.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Thomas Saint-Aubin</h5><h6 class="titre">cofondateur</h6><p class="etablissement">Open-Law</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/sergeravet.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Alexandre Statchenko</h5><h6 class="titre">cofondateur</h6><p class="etablissement">Blockchain France</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/sebastiencout.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Sébastien Couture</h5><h6 class="titre">Co-fondateur</h6><p class="etablissement">Stratumm</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/jeromegiusti.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Jérôme Giusti</h5><h6 class="titre">Avocat fondateur</h6><p class="etablissement">11-100-34</p></div>
-
-					<div class="speaker col-xs-2"><img src="assets/img/intervenants/laurachampion.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive"><h5>Laura Champion</h5><h6 class="titre">Responsable de la communication</h6><p class="etablissement">EEIE"</p></div>
-				</div>
-
-				<div id=application-description>
-					<p>Les inscriptions seront ouvertes du 9 au 15 Mai 2016</p>
-					<p>Les places étant limitées, des informations sur votre profil vous seront demandées à l'inscription pour garantir la mixité des participants</p>
-				</div>
-
-	                    <button class="btn btn-primary btn-raised" data-toggle="modal" data-target="#contactModal">
-	                      Se préinscrire!
-	                    </button>
-
-
-	    	</div>
-	    </div>
-	</div>
 	
     <footer class="footer">
 	    <div class="container">
@@ -395,7 +440,7 @@
 
 	<script type="text/javascript">
 
-		$().ready(function(){
+		$().ready(function(){	
 			// the body of this function is in assets/material-kit.js
 			// materialKit.initSliders();
 			$(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
@@ -408,7 +453,7 @@
 				$(window).on('scroll', materialKitDemo.checkScrollForParallax);
 			}
 
-			var blockfest = new Date(2016, 6, 6);
+			var blockfest = new Date(2016, 5, 5);
 			var diff = blockfest - Date.now();
 			var days = Math.floor(diff / (1000 * 60 * 60 * 24));
 			$("#countdown").text(days);

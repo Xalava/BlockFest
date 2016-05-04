@@ -360,16 +360,48 @@
 }
 
 
+.entete span {
+    font-weight: bold;
+}
+
+.entete .title{
+    font-size: 140%;
+    padding: 3rem;
+}
+
+
+
+
+
 
 .speaker {
     height: 33rem;
-        position: relative;
+    position: relative;
+    padding: 6rem;
 
 }
 
+.speaker h6 {
+
+}
 .speaker img{
-    margin:0 1rem 0 1rem;
-    position: relative;
-    /*margin-bottom: 0;*/
-    margin-top: 0;
+
+}
+
+
+
+
+.programme h2{
+    position:relative;
+}
+
+
+.svg-title{
+    display: inline;
+      width: 8rem;
+      padding-right: 2rem;
+      /*position: absolute;*/
+      /*left: 0rem;*/
+
+
 }
